@@ -9,6 +9,7 @@ import java.lang.reflect.Constructor;
 public class Main {
 
     public static void main(String[] args) {
+        new Test().test();
 //        ClassLoader app = Thread.currentThread().getContextClassLoader();
 //        System.out.println("app = " + app);
 //        String main = Thread.currentThread().getName();

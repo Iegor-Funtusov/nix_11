@@ -1,2 +1,4 @@
-package ua.com.alevel;public class B {
+package ua.com.alevel;
+
+public final class B extends A {
 }

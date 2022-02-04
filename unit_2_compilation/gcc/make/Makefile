@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall
 LDFLAGS =
-OBJFILES = stack.o main.o
+OBJFILES = stack.o main.o ./test/main.o
 TARGET = stacktest
 all: $(TARGET)
 $(TARGET): $(OBJFILES)
