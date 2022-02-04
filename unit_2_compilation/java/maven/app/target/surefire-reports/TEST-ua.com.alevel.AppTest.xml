@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ua.com.alevel.AppTest" time="0.003" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/egorfuntusov/Projects/A-Level/tutor/compiler/java/maven/app/target/test-classes:/Users/egorfuntusov/Projects/A-Level/tutor/compiler/java/maven/app/target/classes:/Users/egorfuntusov/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/egorfuntusov/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="UA"/>
+    <property name="sun.boot.library.path" value="/Users/egorfuntusov/Library/Java/JavaVirtualMachines/Java17/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/egorfuntusov/Projects/A-Level/tutor/compiler/java/maven/app/target/surefire/surefirebooter13909195209286666144.jar /Users/egorfuntusov/Projects/A-Level/tutor/compiler/java/maven/app/target/surefire 2022-02-02T01-06-44_701-jvmRun1 surefire13278620770197850903tmp surefire_09002186166484895477tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/egorfuntusov/Projects/A-Level/tutor/compiler/java/maven/app/target/test-classes:/Users/egorfuntusov/Projects/A-Level/tutor/compiler/java/maven/app/target/classes:/Users/egorfuntusov/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/egorfuntusov/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/egorfuntusov"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="/Users/egorfuntusov/Library/Java/JavaVirtualMachines/Java17/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/egorfuntusov/Projects/A-Level/tutor/compiler/java/maven/app"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/egorfuntusov/Projects/A-Level/tutor/compiler/java/maven/app/target/surefire/surefirebooter13909195209286666144.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.1+12-LTS-39"/>
+    <property name="user.name" value="egorfuntusov"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="US-ASCII"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/egorfuntusov/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/21/87b1g97d7p14fvjdm427p9680000gn/T/"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="user.dir" value="/Users/egorfuntusov/Projects/A-Level/tutor/compiler/java/maven/app"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="US-ASCII"/>
+    <property name="java.library.path" value="/Users/egorfuntusov/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.1+12-LTS-39"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testApp" classname="ua.com.alevel.AppTest" time="0.001"/>
+</testsuite>
