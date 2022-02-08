@@ -1,2 +1,2 @@
-Class-Path: commons-lang3-3.11.jar
+Class-Path: commons-lang3-3.12.0.jar
 Main-Class: ua.com.alevel.Main
