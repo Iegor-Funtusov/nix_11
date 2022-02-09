@@ -8,7 +8,7 @@ import java.util.Collection;
 
 public class CarService {
     
-    CarDao carDao = new CarDaoImpl();
+    CarDao carDao = new CarDaoImpl(); // -> factory
 
     public void create(Car car) {
         carDao.create(car);

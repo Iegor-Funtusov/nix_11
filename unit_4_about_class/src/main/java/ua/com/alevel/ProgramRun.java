@@ -21,24 +21,12 @@ public class ProgramRun {
             while (true) {
                 line  = reader.readLine();
                 switch (line) {
-                    case "1" -> {
-                        create(reader);
-                    }
-                    case "2" -> {
-
-                    }
-                    case "3" -> {
-                        System.out.println("3");
-                    }
-                    case "4" -> {
-                        findById(reader);
-                    }
-                    case "5" -> {
-                        findAll();
-                    }
-                    case "0" -> {
-                        System.exit(0);
-                    }
+                    case "1" -> create(reader);
+                    case "2" -> { }
+                    case "3" -> delete(reader);
+                    case "4" -> findById(reader);
+                    case "5" -> findAll();
+                    case "0" -> System.exit(0);
                 }
             }
         } catch (Exception e) {
@@ -60,14 +48,24 @@ public class ProgramRun {
         System.out.println("Please enter a car model: BMV, AUDI, OPEL");
         String model = reader.readLine();
         CarModel carModel = CarModel.valueOf(model.toUpperCase());
+
+
+
+
         Car car = new Car();
         car.setName(name);
         car.setCarModel(carModel);
         carService.create(car);
+
     }
     private static void update() {}
 
-    private static void delete() {}
+    private static void delete(BufferedReader reader) throws IOException {
+        System.out.println("Please enter a car id:");
+        String id = reader.readLine();
+        carService.delete(id);
+        System.out.println("car is deleted");
+    }
 
     private static void findById(BufferedReader reader) throws IOException {
         System.out.println("Please enter a car id:");
