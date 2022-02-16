@@ -9,5 +9,8 @@ int main()
         printf("a: %d", a);
     }
 
+    unsigned long long l;
+    printf("long: %d", sizeof(long long));
+
     return 0;
 }

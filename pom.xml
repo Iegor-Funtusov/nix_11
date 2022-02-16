@@ -13,6 +13,9 @@
         <module>unit_4_about_class</module>
         <module>unit_5_strings</module>
         <module>custom_string_util</module>
+        <module>unit_6_solid</module>
+        <module>db_in_memory</module>
+        <module>di</module>
     </modules>
     <packaging>pom</packaging>
 
