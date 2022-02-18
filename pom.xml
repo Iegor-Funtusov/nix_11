@@ -16,6 +16,8 @@
         <module>unit_6_solid</module>
         <module>db_in_memory</module>
         <module>di</module>
+        <module>unit_7_evoluation_from_stupid_app_to_best_practices</module>
+        <module>di_nix</module>
     </modules>
     <packaging>pom</packaging>
 

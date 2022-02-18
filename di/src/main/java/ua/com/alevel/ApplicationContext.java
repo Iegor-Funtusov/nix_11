@@ -10,7 +10,6 @@ public class ApplicationContext {
 
     public ApplicationContext(Class<?> mainClass) {
         scanner = new Reflections(mainClass.getPackageName());
-//        System.out.println("scanner = " + scanner.getStore());
         scanner.getStore().forEach((k, v) -> {
             v.forEach((k1, v1) -> {
                 if (k1.equals(BeanClass.class.getName())) {
@@ -23,7 +22,6 @@ public class ApplicationContext {
                                     System.out.println("declaredField = " + declaredField.getName());
                                 }
                             }
-
                         } catch (ClassNotFoundException e) {
                             e.printStackTrace();
                         }
