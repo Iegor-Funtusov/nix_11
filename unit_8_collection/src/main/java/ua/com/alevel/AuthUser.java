@@ -1,6 +1,7 @@
 package ua.com.alevel;
 
-public class AuthUser {
+//public class AuthUser implements Comparable<AuthUser> {
+public class AuthUser{
 
     private final String email;
     private final String token;
@@ -43,4 +44,9 @@ public class AuthUser {
         result = 31 * result + (token != null ? token.hashCode() : 0);
         return result;
     }
+
+//    @Override
+//    public int compareTo(AuthUser o) {
+//        return 0;
+//    }
 }
